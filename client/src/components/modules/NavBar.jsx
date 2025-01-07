@@ -10,7 +10,11 @@ const NavBar = () => {
     // TODO Step 0a: Implement NavBar similar to old navigation bar found in old_index.html.
     // Hint: Look for the <nav> HTML tag.
     // Remember "class" attributes in HTML are renamed to "className" in ReactJS.
-    null
+    <nav className="NavBar-container">
+      <div className="NavBar-link"> Catbook </div>
+      <div className="NavBar-link"> Home </div>
+      <div className="NavBar-link"> About </div>
+    </nav>
   );
 };
 

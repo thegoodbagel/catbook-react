@@ -5,3 +5,16 @@
  * .<old style> --> .<Component>-<style-name>
  * 
  */
+
+.NavBar-container {
+  padding: var(--s) var(--m);
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBar-link {
+  color: var(--white);
+  font-size: 1.2em;
+  margin: 0 var(--s) 0 var(--s);
+}
