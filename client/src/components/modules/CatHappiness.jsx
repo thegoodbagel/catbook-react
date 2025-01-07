@@ -7,11 +7,11 @@ import "./CatHappiness.css";
  * Props
  * @param {int} catHappiness is how happy your cat is
  */
-const CatHappiness = () => {
+const CatHappiness = (props) => {
   return (
     <div className="CatHappiness-container">
       <div className="CatHappiness-story">
-        <p className="CatHappiness-storyContent"></p>
+        <p className="CatHappiness-storyContent"> {props.catHappiness} </p>
       </div>
     </div>
   );
